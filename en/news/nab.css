@@ -1,0 +1,214 @@
+* {
+
+font-family: 'Rajdhani', sans-serif;
+	
+}
+
+
+body{
+
+	/*background-image: url(img/opera.jpg);*/
+	background-color: white;
+	background-position:top;
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+    	
+}
+
+#main{
+	-webkit-animation: myFadeInAnimation 1.3s;
+	-moz-animation: myFadeInAnimation 1.3s;
+	-ms-animation: myFadeInAnimation 1.3s;
+	-o-animation: myFadeInAnimation 1.3s;
+	animation: myFadeInAnimation 1.3s;
+}
+
+@keyframes myFadeInAnimation {
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+@-webkit-keyframes myFadeInAnimation {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.icone img{
+	-webkit-transition: all 0.2s ease; /* Safari and Chrome */
+    -moz-transition: all 0.2s ease; /* Firefox */
+    -ms-transition: all 0.2s ease; /* IE 9 */
+    -o-transition: all 0.2s ease; /* Opera */
+    transition: all 0.2s ease;
+}
+
+.icone:hover img{
+	
+	-webkit-transform:scale(1.55); /* Safari and Chrome */
+    -moz-transform:scale(1.55); /* Firefox */
+    -ms-transform:scale(1.55); /* IE 9 */
+    -o-transform:scale(1.55); /* Opera */
+     transform:scale(1.55);
+	 border: 1px solid white; 
+	border-radius:4px;
+}
+
+.inactive, #dig_menu, #ctc_menu{
+	font-weight:normal;
+	-webkit-transition: all 0.24s ease; /* Safari and Chrome */
+    -moz-transition: all 0.24s ease; /* Firefox */
+    -ms-transition: all 0.24s ease; /* IE 9 */
+    -o-transition: all 0.24s ease; /* Opera */
+    transition: all 0.24s ease;
+}
+
+#dig_menu:hover, #ctc_menu:hover, #dig_menu:active, #ctc_menu:active, #dig_menu:target, #ctc_menu:target,
+#dig_menu:focus, #ctc_menu:focus, .inactive:hover, .inactive:active, .inactive:target, .inactive:focus{
+	font-weight:bold;
+}
+
+.bckg_flag img{
+	text-align:center;
+	z-index:200;
+	-webkit-transition: all 0.2s ease; /* Safari and Chrome */
+    -moz-transition: all 0.2s ease; /* Firefox */
+    -ms-transition: all 0.2s ease; /* IE 9 */
+    -o-transition: all 0.2s ease; /* Opera */
+    transition: all 0.2s ease;
+}
+
+.bckg_flag .text_flag{
+	opacity:0;
+	-webkit-transition: all 0.2s ease; /* Safari and Chrome */
+    -moz-transition: all 0.2s ease; /* Firefox */
+    -ms-transition: all 0.2s ease; /* IE 9 */
+    -o-transition: all 0.2s ease; /* Opera */
+    transition: all 0.2s ease;
+}
+
+.bckg_flag:hover .text_flag{
+	opacity:1;
+}
+
+.bckg_flag:hover img{
+	-webkit-transform:scale(1.4); /* Safari and Chrome */
+    -moz-transform:scale(1.4); /* Firefox */
+    -ms-transform:scale(1.4); /* IE 9 */
+    -o-transform:scale(1.4); /* Opera */
+     transform:scale(1.4);
+	
+}
+
+.text_flag{
+	position:absolute;
+	top:17px;
+	right:15.3px;
+	font-size:19px;
+	color: #66EFFF;
+	font-weight:900;
+	text-shadow: 0 0 0.5px #000000, 0 0 0.5px #000000, 0 0 0.5px #000000, 0 0 0.5px #000000, 0 0 0.5px #000000;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+
+.navbar-inverse {
+    
+  border-color: #E7E7E7;
+}
+
+.navbar-brand img {
+  background-color:#222;
+  background-image:linear-gradient(to right, #222, rgba(255,255,255,0));
+  -webkit-transition:background-color 0.5s; /* Safari and Chrome */
+  -moz-transition:background-color 0.5s; /* Firefox */
+  -ms-transition:background-color 0.5s; /* IE 9 */
+  -o-transition:background-color 0.5s; /* Opera */
+  transition:background-color 0.5s;
+	
+  height: 100%;
+  padding: 1px;
+  width: auto;
+  
+  
+
+}
+
+.navbar-brand:hover img{
+	background-color:#666;
+	
+}
+
+
+
+
+.titre {
+
+    margin-top: 5em;
+
+
+  }
+  .titre b {
+
+    font-size: 40px;
+    font-weight : 900 ;
+  }
+
+  .date {
+
+    text-align:right;
+
+  }
+
+ p {
+    text-indent:25px;
+    text-align: left;
+    text-align: justify;
+  }
+
+
+.satis
+{
+
+  margin-top: 1em;
+}
+  .satis img {
+
+    max-height: 15%; 
+    max-width: 15%;
+
+  }
+
+.digitear img{
+
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.ban img{
+
+  max-width: 100%;
+  max-height: 100%;
+
+}
+
+
+footer {
+
+    background-color: #F3F3F3;
+     
+    bottom: 0; 
+    left: 0; 
+    right: 0;
+  }
+
+.row a {
+
+  text-decoration:none; 
+
+}
